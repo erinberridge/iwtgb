@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.container img {
+    width: 800px;
+    height: 600px;
+}
+
+.phone {
+    position: relative;
+    text-align: center;
+}
+
+.phone img {
+    width: 350px;
+    height: 600px;
+}
+
+.modal {
+    display: none;
+}
+
+area {
+    display:block;
+    cursor: pointer;
+}
+
+.trolley-buttons {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+a.trolley-button {
+    display:inline-block;
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+
+.did {
+    text-align:center;
+    
+}
+
+.did p {
+    color:blanchedalmond;
+}

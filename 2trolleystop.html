@@ -1,0 +1,35 @@
+<!-- Erin Berridge -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>IWTGB</title>	
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta charset="utf-8">
+ 
+</head>
+
+<body>
+
+	<div class="container">
+		<img src="images/story2.png" alt="Slide 2" usemap="#mymap">
+
+        <map name="mymap">
+            <area shape="rect" coords="75,258,390,290" alt="map" onclick="showMap()">
+            <area shape="rect" coords="475,288,627,312" alt="clown" onclick="showClown()">
+            <area shape="rect" coords="322,500,500,528" alt="trolley" href="3trolley.html">
+        </map>
+
+    </div>
+
+<script>
+function showMap() {
+    window.open("images/map.png", "", "width=650,height=390,top=120,left=300");
+}
+function showClown() {
+    window.open("images/yeahright.jpeg", "", "width=400,height=230,top=600,left=1100");
+}
+</script>
+
+</body>
+</html>

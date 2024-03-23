@@ -1,0 +1,42 @@
+<!-- Erin Berridge -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>IWTGB</title>
+<link href="style.css" type="text/css" rel="stylesheet">	
+<meta charset="utf-8">
+ 
+</head>
+
+<body>
+
+	<div class="phone">
+		<img src="images/voicemail.jpg" alt="My Phone" usemap="#mymap">
+    </div>
+
+    <map name="mymap">
+        <area shape="circle" coords="25,33,17" alt="back" href="homescreen.html">
+        <area shape="rect" coords="20,180,80,255" alt="vm1" onclick="playVm1()">
+        <area shape="rect" coords="20,322,80,390" alt="vm2" onclick="playVm2()">
+        <area shape="rect" coords="20,450,80,520" alt="vm2" onclick="playVm3()">
+    </map>
+
+<script>
+function playVm1() {
+    window.open("vm1.html", "", "width=320,height=10,top=200,left=20");
+}
+
+function playVm2() {
+    window.open("vm2.html", "", "width=320,height=10,top=380,left=20");
+}
+
+function playVm3() {
+    window.open("vm3.html", "", "width=320,height=10,top=560,left=20");
+}
+
+</script>
+
+
+</body>
+</html>

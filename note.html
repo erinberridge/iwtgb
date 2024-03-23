@@ -1,0 +1,28 @@
+<!-- Erin Berridge -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>IWTGB</title>	
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta charset="utf-8">
+ 
+</head>
+
+<body>
+
+<p>Let it be known to the reader, I have only ever bought one pack of cigarettes in my life.
+ And they must have had something in them, because I was awful until the last one was gone.
+ Maybe my lucky one was <u><a onclick="showFootnote()">unlucky</a></u> and I had to burn it to get it gone.</p>
+
+<p id="footnote" style="display:none">Paranoid and superstitious people should not smoke.</p>
+
+<script>
+function showFootnote() {
+    var footnote = document.getElementById("footnote");
+    footnote.style.display='block';
+}
+</script>
+
+</body>
+</html>

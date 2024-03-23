@@ -1,0 +1,37 @@
+<!-- Erin Berridge -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>IWTGB</title>	
+<link href="style.css" type="text/css" rel="stylesheet">
+<meta charset="utf-8">
+ 
+</head>
+
+<body>
+
+	<div class="container">
+		<img src="images/story5.png" alt="Olive Stroll" usemap="#mymap">
+
+        <map name="mymap">
+            <area shape="rect" coords="10,133,185,160" alt="lightup" onclick="showNote()">
+            <area shape="rect" coords="630,118,665,138" alt="lightup" onclick="showNote()">
+            <area shape="rect" coords="32,545,217,563" alt="iwtgb" onclick="iwtgb()">
+            <area shape="rect" coords="672,548,768,570", alt="underpass" href="underpass.html">
+        </map>
+
+    </div>
+
+<script>
+function showNote() {
+    window.open("note.html", "", "width=200,height=280,top=300,left=25");
+}
+function iwtgb() {
+    window.open("iwtgb.html", "", "width=200,height=200,top=100,left=100");
+}
+</script>
+
+
+</body>
+</html>
